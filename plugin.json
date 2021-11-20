@@ -1,0 +1,23 @@
+{
+  "slug": "WindingTest",
+  "name": "WindingTest",
+  "version": "2.0.0",
+  "license": "CC-PDDC",
+  "brand": "WindingTest",
+  "author": "WindingTest",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "WindingTest",
+      "name": "WindingTest",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
