@@ -18,6 +18,18 @@
       "name": "WindingTest",
       "description": "",
       "tags": []
+    },
+    {
+      "slug": "MonsterSquare",
+      "name": "MonsterSquare",
+      "description": "",
+      "tags": []
+    },
+    {
+      "slug": "MonsterCircle",
+      "name": "MonsterCircle",
+      "description": "",
+      "tags": []
     }
   ]
 }
