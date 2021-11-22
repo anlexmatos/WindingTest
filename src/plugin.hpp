@@ -19,7 +19,7 @@ struct StuntDonut : Widget {
             nvgPathWinding(args.vg, NVG_HOLE);
             nvgCircle(args.vg, 0, 0, 5);
             nvgPathWinding(args.vg, NVG_SOLID);
-            nvgFillColor(args.vg, nvgRGB(0xFF, 0x00, 0x00));
+            nvgFillColor(args.vg, SCHEME_DARK_GRAY);
             nvgFill(args.vg);
         }
 
