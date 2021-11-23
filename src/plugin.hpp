@@ -33,13 +33,13 @@ struct StuntMonsterCircle : Widget {
     void drawLayer(const DrawArgs &args, int layer) override {
         if (layer == 1) {
             for (int i = 100; i > 15; i--) {
-            nvgBeginPath(args.vg);
+                nvgBeginPath(args.vg);
                 nvgCircle(args.vg, 0, 0, i);
                 nvgPathWinding(args.vg, NVG_HOLE);
                 nvgCircle(args.vg, 0, 0, i - 15);
                 nvgPathWinding(args.vg, NVG_SOLID);
-            nvgFillColor(args.vg, SCHEME_DARK_GRAY);
-            nvgFill(args.vg);
+                nvgFillColor(args.vg, SCHEME_DARK_GRAY);
+                nvgFill(args.vg);
             }
         }
 
